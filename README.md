@@ -11,13 +11,10 @@ A starter repository for getting started with App Centre for mobile development
 
 # Upload Provisioning Profile and Certificates
 
-* Open Devices and Simulators in Xcode
-* Right click and Show Provisioning Profiles
-* Right click on Profile and Export...
-* Upload in App Center
-* Open Keychain
-* Export distribution certificate and private key into password protected p12 file
-* Upload in App Center
+* Start by identifying a valid distribution certificate and private key in Keychain
+* Export both items into a password-protected p12 file
+* Login to developer.apple.com and create / export a provisioning profile that includes the specified certificate
+* Upload both items to App Center build
 
 # Test on Real Device
 
