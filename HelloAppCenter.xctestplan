@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "1E0F68C4-9367-4417-BDAD-DDE69E62D144",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HelloAppCenter.xcodeproj",
+      "identifier" : "F6CEB5BE23CF12AC00C4FE75",
+      "name" : "HelloAppCenter"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HelloAppCenter.xcodeproj",
+        "identifier" : "F6CEB5D623CF12AE00C4FE75",
+        "name" : "HelloAppCenterTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:HelloAppCenter.xcodeproj",
+        "identifier" : "F6CEB5E123CF12AE00C4FE75",
+        "name" : "HelloAppCenterUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
